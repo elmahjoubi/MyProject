@@ -1,0 +1,19 @@
+<?php 
+$a  =  0;
+if( $a == 0 || $a % 3 == 0 ): ?>  <div class="row">     <?php   endif; ?>
+
+
+    <div class="col-md-4">
+
+      <div class="distributeur">
+
+         <div class="border"></div>
+        <p class="titre-pays"><?php the_sub_field('pays');?></p>
+        <p class="titre-societe"><?php the_sub_field('societe');?></p>
+        <div class="infos-societe"><?php the_sub_field('adresse');?></div>
+
+      </div>
+
+    </div>
+
+<?php $a++; if($a % 3 == 0):  ?>   	</div>   <?php   endif; ?>
