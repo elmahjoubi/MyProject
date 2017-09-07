@@ -1,0 +1,8 @@
+<!--select chambres-->
+<script type="text/javascript">
+	if ( window.location.hash ) {	
+		var $chambre = window.location.hash.substring(1);
+		jQuery('#menu_chambre').val($chambre);
+    }
+
+</script>
