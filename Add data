@@ -1,0 +1,6 @@
+    <script>
+    jQuery(document).ready(function($){
+       $('#item-id').attr('data-toggle', 'modal');
+       $('#item-id').attr('data-target', '#myModal');
+    });
+    </script>
