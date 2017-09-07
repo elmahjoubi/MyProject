@@ -1,0 +1,15 @@
+<!--Anchor-->
+  	<script type="text/javascript">
+  	jQuery(document).ready(function($){
+
+  		if ( window.location.hash ) {
+  				var $currentAttrValue = window.location.hash;
+  				var $currentAttrValue = decodeURI($currentAttrValue);
+
+  				console.log($currentAttrValue);
+
+  				$('html,body').animate({  scrollTop: $($currentAttrValue).offset().top - 105},'slow');
+  			}
+  		}
+  	);
+  	</script>
