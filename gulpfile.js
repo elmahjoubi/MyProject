@@ -26,6 +26,8 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('./css'));
 });
 
+// Run: 
+// gulp nanocss
 // Minifies CSS files
 gulp.task('cssnano', ['cleancss'], function(){
   return gulp.src('./css/*.css')
@@ -41,6 +43,8 @@ gulp.task('cleancss', function() {
     .pipe(rimraf());
 });
 
+// Run: 
+// gulp watch
 // Watch Files For Changes
 gulp.task('watch', function() {
     gulp.watch('./sass/**/*.scss', ['sass']);
