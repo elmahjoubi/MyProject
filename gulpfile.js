@@ -1,4 +1,5 @@
 //https://travismaynard.com/writing/getting-started-with-gulp
+//npm install  gulp-jshint gulp-plumber gulp-sass gulp-concat gulp-cssnano gulp-uglify gulp-ignore gulp-rename gulp-rimraf --save-dev
 
 // Defining base pathes
 var basePaths = {
