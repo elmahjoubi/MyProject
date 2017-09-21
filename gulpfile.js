@@ -6,7 +6,7 @@ var basePaths = {
     bower: './bower_components/'
 };
 
-// Include gulp
+// Include gulp 
 var gulp = require('gulp');
 
 // Include Our Plugins
@@ -27,7 +27,7 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('./css'));
 });
 
-// Run: 
+// Run:
 // gulp nanocss
 // Minifies CSS files
 gulp.task('cssnano', ['cleancss'], function(){
@@ -44,7 +44,7 @@ gulp.task('cleancss', function() {
     .pipe(rimraf());
 });
 
-// Run: 
+// Run:
 // gulp watch
 // Watch Files For Changes
 gulp.task('watch', function() {
