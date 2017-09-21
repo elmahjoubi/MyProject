@@ -1,12 +1,12 @@
 //https://travismaynard.com/writing/getting-started-with-gulp
-//npm install  gulp-jshint gulp-plumber gulp-sass gulp-concat gulp-cssnano gulp-uglify gulp-ignore gulp-rename gulp-rimraf --save-dev
+//npm install  jshint gulp-jshint gulp-plumber gulp-sass gulp-concat gulp-cssnano gulp-uglify gulp-ignore gulp-rename gulp-rimraf --save-dev
 
 // Defining base pathes
 var basePaths = {
     bower: './bower_components/'
 };
 
-// Include gulp 
+// Include gulp
 var gulp = require('gulp');
 
 // Include Our Plugins
