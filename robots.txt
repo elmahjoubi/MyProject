@@ -1,6 +1,6 @@
 User-agent: *
 
-# On empêche l'indexation des dossiers sensibles
+# On empÃªche l'indexation des dossiers sensibles
 Disallow: /cgi-bin
 Disallow: /wp-login.php
 Disallow: /wp-admin
@@ -15,7 +15,7 @@ Disallow: */comments
 Disallow: /*?
 
 User-agent: Googlebot
-# On empêche l'indexation des fichiers sensibles
+# On empÃªche l'indexation des fichiers sensibles
 Disallow: /*.php$
 Disallow: /*.js$
 Disallow: /*.inc$
@@ -37,4 +37,4 @@ Disallow:
 Allow: /*
 
 # On indique au spider le lien vers notre sitemap
-Sitemap: http://www.sofeo.fr/sitemap.xml
+Sitemap: http://www.domaine.com/sitemap.xml
